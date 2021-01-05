@@ -1,9 +1,55 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
-#image {
+/* Headers */
+header
+{   
+    display: flex; 
+    background-color: #000;
+    color: #e6e6e6;     
+}
+
+header h1
+{   
+    margin-left: 10vw;
+    font-family: 'Oswald', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 6em;
+}
+
+/* .intro
+{
+    max-height: 30vh;
+    border: 4px red solid;
+} */
+
+header p
+{
+    margin-left: 10vw;
+    max-width: 28vw;
+    font-family: 'Quattrocento', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1em;
+    text-align: justify;
+} 
+
+header span
+{   
+    margin-left: 10vw;
+    font-family: 'Oswald', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 2em;
+    text-transform: uppercase;
+    letter-spacing: 0.55em;
+}
+
+/* |Images */
+#image 
+{   max-width: 625px;
     width: 100%;
     height: auto;
-    max-width: 625px;
     margin-left: auto;
     margin-right: auto;
     display: block;
-    }
+}
