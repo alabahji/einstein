@@ -18,7 +18,7 @@ header
 header p
 {  
     font-family: 'Roboto', sans-serif;
-    font-size: 2em;
+    font-size: 1.75em;
     text-align: justify;
     padding: 2vh 0;
 }
@@ -30,24 +30,25 @@ header h1
     text-transform: uppercase;
     font-family: 'Roboto', sans-serif;
     letter-spacing: 0.44em;
-    color: rgb(0, 162, 255);
+    color: #F14C2E; 
     padding: 2.5vh 0;
 }
 
 
 .head_color
 {
-    color: rgb(150, 150, 150);
+    color: #464242;
 }
 
 header strong
 {
-    color: rgb(0, 162, 255);
+    color: #F14C2E;
 }
 
 button 
 {
     max-width: 200px;
+    color:  #F14C2E;
 }
 
 
@@ -65,4 +66,10 @@ button
     font-family: 'Montserrat', sans-serif;
     font-size: 4em;
     font-weight: 700;
+}
+
+
+main 
+{
+    position: relative;
 }
