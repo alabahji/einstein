@@ -1,0 +1,88 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.row
+{   display: flex;
+    align-items: center;
+    background-color: #222;
+}
+
+.left {
+    flex: 1;
+    border: 3px lime solid;
+  }
+
+.right {
+    flex: 4;
+    border: 3px red solid;
+  }
+
+
+  .head-text {
+      width: 50%;
+      margin-left: 10%;
+  }
+
+
+  .head-text h1
+  {
+      
+      padding: 2% 0;
+      font-size: 5em;
+      color: #fff;
+      border-left: 3px purple solid;
+  }
+
+
+  .head-text h2
+  {
+      color: #777;
+      border-left: 3px purple solid;
+ 
+  }
+
+
+  .head-text p
+  {     
+      padding: 2% 0;
+      color: #eee;
+      font-size: 1em;
+      line-height: 1.75;
+      border-left: 3px purple solid;
+  }
+
+.equation
+  {
+   display: flex;
+   padding: 3% 0;
+   background-color: darkgray;
+      
+  }
+
+  .equation h1 
+  {
+    flex: 1;
+    font-size: 6em;
+    border: 3px yellow solid;
+
+  }
+
+  .equation p
+  {
+    flex: 2;
+    border: 3px cyan solid;
+  }
+
+ 
+
+.routine 
+{   width: 65%;
+    margin-left: 33%;
+    border: 3px orange solid;
+    
+}
+
