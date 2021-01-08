@@ -28,7 +28,8 @@
   }
 
 
-  .head-text h1
+  .head-text h1,
+  .quotes h1
   {
       
       padding: 2% 0;
@@ -82,7 +83,33 @@
 .routine 
 {   width: 65%;
     margin-left: 33%;
+    padding: 3% 0;
     border: 3px orange solid;
     
 }
 
+
+.quotes 
+{
+  background-color: dimgrey;
+  padding: 3% 10%;
+}
+
+blockquote
+{ 
+  padding: 3% 10%;
+  margin-bottom: 5%;
+  font-size: 2em;
+  background-color: #fff;
+}
+
+.life
+{
+  background-color: gray;
+  padding: 3% 10%;
+}
+
+footer {
+  background-color: #000;
+  color: #fff;
+}
