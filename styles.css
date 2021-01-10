@@ -27,6 +27,11 @@
   color: #222;  
 }
 
+.section-light h1
+{
+  color: #222;
+}
+
 
 /*====================================================*/
 /* --Flexbox for sections split on halves vertically */
@@ -63,7 +68,7 @@ header p
 
 button
 {
-  margin: 2% 0;
+  margin: 2% 2%;
 }
 
 /*=========================*/
@@ -95,6 +100,11 @@ img
   padding: 1% 3%;
 }
 
+figure
+{
+  padding-bottom: 2%;
+}
+
 
 blockquote
 { 
@@ -105,39 +115,13 @@ blockquote
   color: #222;
 }
 
-
-
-
-
- 
-
-/*
-
-
-
-
-  .head-text h2
-  {
-      
-      border-left: 3px purple solid;
- 
-  }
-
-
-
-
-
-
-
-.life
+ul li 
 {
-  background-color: gray;
-  padding: 3% 10%;
+  list-style-type: none;
+  padding: 1% 0;
 }
 
 footer {
   background-color: #000;
   color: #fff;
 }
-
-*/
