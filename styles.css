@@ -6,7 +6,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: sans-serif;
+    font-family: 'Roboto', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 /*=====================================*/
@@ -55,28 +55,54 @@
 }
 
 /*=========================*/
-/* --Hero section content styling */
+/* --Headers */
 h1
 { 
   padding: 3% 0;
   font-size: 4.5em;
+  font-family: 'Montserrat', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   color: #fff;
-  border-left: 1px red solid;
-  border-right: 1px red solid;
 }
 
 h2
 {
   color: #777;
   text-transform: uppercase;
-  border-left: 1px red solid;
-  border-right: 1px red solid;
+}
+
+/*=========================*/
+/* --Hero section content styling */
+h1
+{ 
+  padding: 1% 0;
+  font-size: 4.5em;
+  font-family: 'Montserrat', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #fff;
+}
+
+header h2
+{
+  color: #777;
+  font-size: 1em;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5em;
 }
 
 header p
-{
+{ 
   width: 50%;
-  border-left: 1px red solid;  
+  margin-bottom: 1%;
+  font-size: 1.45em;
+  line-height: 1.75;
+  
+}
+
+
+header p span
+{
+  color: red;
+  font-weight: 900;
 }
 
 /*=========================*/
@@ -87,7 +113,6 @@ header p
 {
   font-size: 8em;
   color: #222;
-  border-left: 1px red solid;
 }
 
 .equation sup
@@ -97,10 +122,9 @@ header p
 
 p
 { 
-  font-size: 0.9em;
+  font-size: 1.1em;
   line-height: 1.75;
   text-align: justify; 
-  border-left: 1px red solid; 
 }
 
 
@@ -111,7 +135,6 @@ blockquote
   font-size: 2em;
   background-color: #fff;
   color: #222;
-  border-left: 1px red solid;
 }
 
 
@@ -129,8 +152,6 @@ ul li
   padding: 1% 0;
   margin-bottom: 3%;
   list-style-type: none;
-  border-left: 1px red solid;
-  border-right: 1px red solid;
 }
 
 .hour
