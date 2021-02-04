@@ -85,7 +85,7 @@ button {
     @media only screen and (min-width: 900px) {
         header {
             padding: 20vh;
-            background-image: url('hd-bg2.jpeg');
+            background-image: url('hdbg.jpeg');
             background-size: cover;
             background-position: center left;
         }
